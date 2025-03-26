@@ -7,83 +7,77 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  font-family: "Poppins", sans-serif;
 }
 body {
   overflow-x: hidden;
 }
-body h1 {
-  font-family: "Poppins", sans-serif;
+
+h1 {
   font-weight: 600;
 }
-body p {
-  font-family: "Poppins", sans-serif;
+p {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 }
-/* color: #113454; */
 
-.navbar {
-  padding: 5px 0px 5px;
-  box-shadow: 0px 4px 21.7px 0px #0000002b;
-}
-.nav-login-btn .btn {
-  background-color: #ff635f;
+.main-btn .btn {
+  background: transparent linear-gradient(180deg, #ff635f 0%, #ff845d 100%) 0%
+    0% no-repeat padding-box;
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
   padding: 5px 27px;
 }
 
 .navbar-nav .nav-link {
   color: #000000e0 !important;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 /* banner-section */
 .banner-section {
   background-image: url(../img/Group\ 2763.png);
-  padding: 80px 0px 60px;
-  height: 630px;
+  padding: 80px 0px 130px;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .banner-bottom-card {
-  box-shadow: 0px 8px 1px #00000010;
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 15px 10px;
-  position: relative;
-  top: -56px;
+  position: absolute;
+  width: 100%;
+  bottom: -35px;
+  margin: auto;
 }
-
+.banner-bottom-card .card {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ebebeb;
+}
 .play-real-money {
   display: flex;
-  background-color: #ff635f;
-  border-radius: 10px;
   align-items: center;
   text-align: center;
   justify-content: space-around;
+  background-color: #ff635f;
+  border-radius: 10px;
   color: #fff;
 }
 
 .play-real-money p {
   padding: 8px 0px 8px;
   margin: 0px;
-  letter-spacing: 0.5px;
-  font-size: 16px;
-  font-weight: 400;
 }
 .play-real-money img {
   height: 23px;
   width: 100%;
 }
-
 /* main-wrapper-section */
+
+.main-wrapper-section {
+  padding: 80px 0px;
+}
 .no-one-top-rated-casino {
   max-width: 1030px;
   margin: 0px auto;
@@ -91,7 +85,6 @@ body p {
 
 .main-wrapper-section h2 {
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
 }
 .main-wrapper-section .seconary-color {
   color: #ff635f;
@@ -101,15 +94,6 @@ body p {
   background-color: #ff635f;
   padding: 6px 0px 6px;
 }
-.no-one-top-rated-casino .india-flag-section li {
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-}
-
-.main-card {
-  border-radius: 20px;
-  margin-bottom: 15px;
-}
 
 .no-one-top-rated-casino .main-card {
   box-shadow: 0px 6px 14px #00000010;
@@ -118,24 +102,19 @@ body p {
 
 .no-one-top-rated-casino .fastest-indian-rs h6 {
   color: #ff5352;
-  font-family: "Poppins", sans-serif;
   line-height: 28px;
-  font-size: 19px;
   font-weight: 600;
 }
 
 .fastest-indian-rs ul li {
-  font-size: 10px;
+  font-size: 12px;
   color: #000000;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 
 .no-one-top-rated-casino .bonus-btn {
   border: 1px solid #ff6459;
   border-radius: 23px;
   padding: 3px 11px;
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: red;
 }
@@ -150,14 +129,9 @@ body p {
 }
 
 .no-one-top-rated-casino .play-now-btn {
-  font-family: "Poppins", sans-serif;
-  border-radius: 3px;
-  font-size: 14px;
   font-weight: 500;
   padding: 7px 18px;
   color: #ffffff;
-  background: transparent linear-gradient(180deg, #ff635f 0%, #ff845d 100%) 0%
-    0% no-repeat padding-box;
 }
 
 .review-right-text {
@@ -180,7 +154,6 @@ body p {
 
 .easy-sign-up-deposits h6 {
   color: #ff5352;
-  font-family: "Poppins", sans-serif;
   line-height: 28px;
   font-size: 19px;
   font-weight: 600;
@@ -189,11 +162,9 @@ body p {
 .easy-sign-up-deposits ul li {
   font-size: 15px;
   color: #000000;
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 .all-clients-main-cards-section .play-now-btn {
-  font-family: "Poppins", sans-serif;
   border-radius: 3px;
   font-size: 14px;
   font-weight: 500;
@@ -224,12 +195,10 @@ body p {
 .footer-section .nav-link {
   color: #ebebeb;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
 }
 
 .footer-section .active {
   color: white;
-  font-family: "Poppins", sans-serif;
   font-size: 18px;
   text-underline-offset: 5px;
 }
@@ -250,37 +219,29 @@ body p {
 
 .trusted-casino-body h6 {
   font-size: 17px;
-  font-family: "Poppins", sans-serif;
 }
 
 .trusted-casino-body p {
   color: #ebebeb;
   font-size: 14px;
   text-align: justify;
-  font-family: "Poppins", sans-serif;
 }
 
 .copywrite-section .teen-patti-btn {
-  border-radius: 5px;
-  font-size: 14px;
-  font-weight: 500;
   padding: 8px 20px;
   color: #ffffff;
   text-transform: uppercase;
-  background: transparent linear-gradient(180deg, #ff635f 0%, #ff845d 100%) 0%
-    0% no-repeat padding-box;
 }
+
 
 .copywrite-section p {
   color: #ebebeb;
-  font-family: "Poppins", sans-serif;
   font-size: 14px;
   letter-spacing: 0.6px;
 }
 
 @media Only Screen and (max-width: 767px) {
   body p {
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 27px;
@@ -298,29 +259,6 @@ body p {
     font-size: 13px;
   }
 
-  /* banner-section */
-  .banner-section {
-    background-image: url(../img/Group\ 2763.png);
-    padding: 80px 0px 0px;
-    height: 530px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-  .banner-casino-image {
-    display: none;
-    margin-bottom: 0px;
-  }
-
-  .banner-bottom-card {
-    border-radius: 6px;
-    position: absolute;
-    top: 40%;
-    width: 90%;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
 
   .play-real-money p {
     padding: 4px 0px 4px;
@@ -365,14 +303,6 @@ body p {
     font-weight: 500;
   }
 
-  .no-one-top-rated-casino .bonus-btn {
-    border: 1px solid #ff6459;
-    border-radius: 23px;
-    padding: 3px 11px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    color: red;
-  }
 
   .no-one-top-rated-casino .bonus-text {
     font-weight: 600;
@@ -402,49 +332,22 @@ body p {
   }
 
   .footer-section .active {
-    font-size: 15px;
-    font-weight: 500 !important;
-    text-underline-offset: 0px;
     text-decoration: none !important;
   }
 
-  .left-socials-icons a {
-    font-size: 13px;
-    height: 32px;
-    text-align: center;
-    width: 32px;
-    padding: 5px 10px;
-    background-color: #ff845d;
-    border: 1px solid white;
-    border-radius: 10%;
-  }
+
 
   .trusted-casino-body h6 {
     font-size: 17px;
-    font-family: "Poppins", sans-serif;
   }
 
   .trusted-casino-body p {
     color: #ebebeb;
     font-size: 14px;
     text-align: justify;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .copywrite-section .teen-patti-btn {
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 8px 20px;
-    color: #ffffff;
-    text-transform: uppercase;
-    background: transparent linear-gradient(180deg, #ff635f 0%, #ff845d 100%) 0%
-      0% no-repeat padding-box;
   }
 
   .copywrite-section p {
-    color: #ebebeb;
-    font-family: "Poppins", sans-serif;
     font-size: 13px;
     letter-spacing: 0px;
   }
@@ -452,11 +355,9 @@ body p {
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
   body h1 {
-    font-family: "Poppins", sans-serif;
     font-weight: 500;
   }
   body p {
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
@@ -464,18 +365,13 @@ body p {
 
   /* banner-section */
   .banner-section {
-    background-image: url(../img/Group\ 2763.png);
     padding: 80px 0px 60px;
-    height: 630px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    height: 100%;
   }
 
   .banner-bottom-card {
-    position: absolute;
-    top: 56%;
     margin: 0px auto;
+    bottom: -40px;
     left: 0;
     width: 80%;
     right: 0;
@@ -484,44 +380,18 @@ body p {
     display: none;
   }
 
-  .play-real-money {
-    display: flex;
-    background-color: #ff635f;
-    border-radius: 10px;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-  }
-
-  .play-real-money p {
-    padding: 8px 0px 8px;
-    margin: 0px;
-    letter-spacing: 0.5px;
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .play-real-money img {
-    height: 23px;
-    width: 100%;
-  }
 
   /* main-wrapper-section */
   .main-wrapper-section h2 {
     font-weight: 600;
     padding-top: 10px;
-    font-family: "Poppins", sans-serif;
-  }
-  .main-wrapper-section .seconary-color {
-    color: #ff635f;
   }
 
   .no-one-top-rated-casino .india-flag-section {
-    background-color: #ff635f;
     padding: 6px 0px 6px;
   }
   .no-one-top-rated-casino .india-flag-section li {
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
   }
 
   .main-card {
@@ -530,13 +400,10 @@ body p {
   }
 
   .no-one-top-rated-casino .main-card {
-    box-shadow: 0px 6px 14px #00000010;
     padding: 25px 0px 25px;
   }
 
   .no-one-top-rated-casino .fastest-indian-rs h6 {
-    color: #ff5352;
-    font-family: "Poppins", sans-serif;
     line-height: 28px;
     font-size: 19px;
     font-weight: 600;
@@ -545,39 +412,9 @@ body p {
   .fastest-indian-rs ul li {
     font-size: 10px;
     text-wrap: no-wrap;
-    color: #000000;
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
   }
 
-  .no-one-top-rated-casino .bonus-btn {
-    border: 1px solid #ff6459;
-    border-radius: 23px;
-    padding: 3px 11px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    color: red;
-  }
-
-  .no-one-top-rated-casino .bonus-text {
-    font-weight: 600;
-  }
-
-  .yellow-ratings-border {
-    border: 2px solid #ff6f5984;
-    border-radius: 8px;
-  }
-
-  .no-one-top-rated-casino .play-now-btn {
-    font-family: "Poppins", sans-serif;
-    border-radius: 3px;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 7px 18px;
-    color: #ffffff;
-    background: transparent linear-gradient(180deg, #ff635f 0%, #ff845d 100%) 0%
-      0% no-repeat padding-box;
-  }
 
   .review-right-text {
     font-weight: 500;
@@ -590,109 +427,11 @@ body p {
     max-width: 1000px;
   }
 
-  .main-card-body {
-    padding: 30px 5px 30px;
-    box-shadow: 0px 3px 26px #00000010;
-    border-radius: 5px;
-  }
 
-  .easy-sign-up-deposits h6 {
-    color: #ff5352;
-    font-family: "Poppins", sans-serif;
-    line-height: 28px;
-    font-size: 19px;
-    font-weight: 600;
-  }
-
-  .easy-sign-up-deposits ul li {
-    font-size: 15px;
-    color: #000000;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-  }
-  .all-clients-main-cards-section .play-now-btn {
-    font-family: "Poppins", sans-serif;
-    border-radius: 3px;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 7px 18px;
-    color: #ffffff;
-    background: transparent linear-gradient(180deg, #ff635f 0%, #ff845d 100%) 0%
-      0% no-repeat padding-box;
-  }
-
-  .all-clients-main-cards-section .left-payment-section img {
-    width: 50px;
-  }
-
-  .all-clients-main-cards-section .reviews-text {
-    font-weight: 500;
-  }
-
-  .main-card-body-bg-secondary {
-    background: #ebebeb 0% 0%;
-  }
-
-  .footer-section {
-    background-image: url(../img/Group\ 48095504\ footer-bg.svg);
-    height: auto;
-    width: 100%;
-  }
-
-  .footer-section .nav-link {
-    color: #ebebeb;
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
-  }
 
   .footer-section .active {
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    text-underline-offset: 5px;
-  }
-  .footer-section .nav-link:hover {
-    color: #ebebeb;
+    font-size: 13px;
   }
 
-  .left-socials-icons a {
-    font-size: 16px;
-    height: 42px;
-    text-align: center;
-    width: 42px;
-    padding: 5px 10px;
-    background-color: #ff845d;
-    border: 2px solid white;
-    border-radius: 10%;
-  }
-
-  .trusted-casino-body h6 {
-    font-size: 17px;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .trusted-casino-body p {
-    color: #ebebeb;
-    font-size: 14px;
-    text-align: justify;
-    font-family: "Poppins", sans-serif;
-  }
-
-  .copywrite-section .teen-patti-btn {
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 8px 20px;
-    color: #ffffff;
-    text-transform: uppercase;
-    background: transparent linear-gradient(180deg, #ff635f 0%, #ff845d 100%) 0%
-      0% no-repeat padding-box;
-  }
-
-  .copywrite-section p {
-    color: #ebebeb;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.6px;
-  }
 }
+/* 692 */
